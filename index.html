@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#4b1219"><title>Kotelniki Apartments</title><link rel="stylesheet" href="style.css?v=7"></head><body>
+<main id="page"><section id="welcome" aria-label="Kotelniki Apartments">
+<header><h1>Kotelniki Apartments</h1><p>благодарит Вас за Ваше присутствие сегодня!</p></header>
+<h2>Сегодня для Вас старались</h2><div class="people">
+<article><h3>Шеф повар</h3><div class="polaroid"><img src="374ab.png" alt="Шеф повар Даниэль"><p class="person-name">Даниэль</p></div></article>
+<article><h3>Бармэн</h3><div class="polaroid"><img src="4eea4.png" alt="Бармэн Драндулет"><p class="person-name">Драндулет</p></div></article>
+<article><h3>Кондитер и декоратор</h3><div class="polaroid"><img src="d93ae.png" alt="Кондитер и декоратор Кнопка"><p class="person-name">Кнопка</p></div></article>
+<article><h3>Креативный<br>директор</h3><div class="polaroid"><div class="portrait"><img src="465f4.png" alt="Креативный директор Анчоус"></div><p class="person-name">Анчоус</p></div></article>
+</div><div id="decor" aria-hidden="true"></div>
+<fieldset><legend>Выберите удобный способ оплаты:</legend><label><input type="radio" name="payment" value="money">многа деняк</label><label><input type="radio" name="payment" value="kiss">оплата по KissPay</label></fieldset>
+<button id="kiss" class="kiss" aria-label="Увеличить фоторамку — пример KissPay"><span class="strip"><span class="crop"><img src="7c414.png" alt="Первый поцелуй"></span><img src="05269.png" alt="Второй поцелуй"><img src="09d33.png" alt="Третий поцелуй"></span><span class="caption">пример KissPay</span></button>
+<p id="joke" role="status" hidden>Вам стока не хватит</p><button id="confirm" disabled>Подтвердить оплату</button>
+</section><section id="success" hidden aria-labelledby="success-title" tabindex="-1"><div id="success-decor" aria-hidden="true"></div><h1 id="success-title">Оплата прошла успешно!</h1><p>Всегда будем рады Вас видеть</p><div id="gallery" aria-label="Фотогалерея"></div></section></main>
+<dialog id="lightbox" aria-label="Пример KissPay"><button id="close" aria-label="Закрыть">×</button><div id="enlarged"></div></dialog><script src="app.js"></script></body></html>
